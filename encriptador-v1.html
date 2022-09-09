@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+  <head>
+    
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+    <header>
+
+      <h1><img src="Imagenes/Vector.png"></h1>
+    
+    </header>
+
+    <main>
+
+      <textarea type="text" id="paraCopiar" class="respuesta" cols="15" rows="8" readonly="readonly"> </textarea>
+      <textarea class="Caja-texto" type="text" id="texto" required placeholder="Ingrese el texto aqui"  cols="40" rows="6"></textarea>
+      
+      <section class="marco-botones">
+
+        <input class="Boton-encriptar" type="button" id="botonEncriptar" value="Encriptar" >
+        <input class="Boton-desencriptar" type="button" id="botonDesencriptar" value="Desencriptar">
+        <input  type="button"  value="Copiar" class="Boton-copiar" id="copiar" >
+      
+      </section>
+    
+    <script src="encriptador.js"></script>
+    
+      <section class="imagenes"> 
+
+        <div id="imagen-muñeco" class="imagen-clipboard"><img src="Imagenes/Muñeco.png" ></div>
+        <img class="imagen-condicion" src="Imagenes/Frame 1.png" alt="">
+        <div class="imagen-texto"> <img src="Imagenes/Frame 5.png" alt=""> </div>
+      
+      </section>
+      </main>
+
+  </body>
+ 
+</html>
